@@ -121,3 +121,65 @@
 #         totalSum *= number
 
 # print(totalSum)
+
+# def hello():
+#     print("hello world")
+
+# hello()
+
+# def hello():
+#     return "hello world"
+
+# print(hello())
+# res = hello()
+# res += hello()
+
+# print(res)
+# def hello():
+#     return "hello world"
+
+# print(hello())
+
+# if 3 > 2:
+#     print("3 is greater than 2")
+
+# for x in range(5):
+#     print(x)
+
+
+# def add(a, b):
+#     return a + b
+
+# print(add(10, 20))
+# print(add(2411, 1231))
+
+# def add(a, b):
+#     return a + b
+
+# def add(a, b):
+#     if a < 0 or b < 0:
+#         return "numbers must be positive"
+#     else:
+#         return a + b
+
+# num1 = int(input("enter first number: "))
+# num2 = int(input("enter second number: "))
+# print("Result:", add(num1, num2))
+
+
+# operation(a, b, operator)
+
+def operation(a, b, operator):
+    if operator == 1:
+        return a + b
+    elif operator == 2:
+        return a - b
+    elif operator == 3:
+        return a * b
+    elif operator == 4:
+        return a / b
+    
+num1 = int(input("enter first number: "))
+num2 = int(input("enter second number: "))
+operator = int(input("enter operator: "))
+print("Result:", operation(num1, num2, operator))
