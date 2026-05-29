@@ -185,3 +185,73 @@
 # print("Result:", operation(num1, num2, operator))
 
 
+# def sayHello():
+#     print("hello")
+
+
+# sayHello()
+# sayHello()
+# sayHello()
+# sayHello()
+# sayHello()
+# sayHello()
+# sayHello()
+# sayHello()
+
+# def sayHello():
+#     return "hello"
+
+# result = sayHello() + " Guys"
+# print(result)
+# print(sayHello())
+
+
+# def add(a,b):
+#     return a + b
+
+# print(add(10, 20))
+# print(add(2411, 1231))
+
+# def add(a, b):
+#     if type(a) != int or type(b) != int:
+#         return "numbers must be integers"
+#     if a < 0 or b < 0:
+#         return "numbers must be positive"
+#     else:
+#         return a + b
+    
+# print(add(10, 20))
+# print(add(-10, 20))
+# print(add(10, -20))
+# print(add("hello"," world"))
+
+
+# numbers = [1, 2, 3, 4, 5]
+
+# sum = numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4]
+# sum = 0
+# sum += numbers[0]
+# sum += numbers[1]
+# sum += numbers[2]
+# sum += numbers[3]
+# sum += numbers[4]
+# print(sum)
+# mulp = 1
+
+# for number in numbers:
+#     if number % 2 == 0:
+#         mulp *= number
+
+# print(mulp)
+
+# def add(*numbers):
+#     sum = 0
+#     for number in numbers:
+#         sum += number
+#     return sum
+
+
+# print(add(1, 2, 3, 4, 5, 5, 5, 235,3,4,35,35,4,645,76))
+
+# mathOperation(a, b, operator)
+
