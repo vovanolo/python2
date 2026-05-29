@@ -169,17 +169,19 @@
 
 # operation(a, b, operator)
 
-def operation(a, b, operator):
-    if operator == 1:
-        return a + b
-    elif operator == 2:
-        return a - b
-    elif operator == 3:
-        return a * b
-    elif operator == 4:
-        return a / b
+# def operation(a, b, operator):
+#     if operator == 1:
+#         return a + b
+#     elif operator == 2:
+#         return a - b
+#     elif operator == 3:
+#         return a * b
+#     elif operator == 4:
+#         return a / b
     
-num1 = int(input("enter first number: "))
-num2 = int(input("enter second number: "))
-operator = int(input("enter operator: "))
-print("Result:", operation(num1, num2, operator))
+# num1 = int(input("enter first number: "))
+# num2 = int(input("enter second number: "))
+# operator = int(input("enter operator: "))
+# print("Result:", operation(num1, num2, operator))
+
+
